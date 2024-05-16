@@ -1,0 +1,27 @@
+{
+  "name": "test-automation-test-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts",
+    "e2e": "wdio wdio.conf.ts",
+    "test1": "wdio wdio.conf.ts --suite test1",
+    "test2": "wdio wdio.conf.ts --suite test2"
+  },
+  "author": "Marek Ostrowski",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^8.36.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

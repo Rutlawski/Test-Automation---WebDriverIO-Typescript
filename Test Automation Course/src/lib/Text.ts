@@ -1,0 +1,10 @@
+export const homePageTitle: string = "My Shop";
+export const womenPageTitle: string = "Women - My Shop";
+export const productPageTitle: string = "Faded Short Sleeve T-shirts - My Shop";
+export const alertPageTitle: string = "Alerts";
+export const uploadPageTitle: string = "The Internet";
+export const searchValue: string = "Dress";
+export const dissmisMessage: string = "You Pressed Cancel";
+export const alertText: string = "Tester's Tester";
+export const expectedMessage: string = "Hello Tester's Tester How are you today";
+export const uploadSuccessMessage: string = "File Uploaded!";

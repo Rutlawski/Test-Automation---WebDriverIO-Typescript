@@ -1,0 +1,31 @@
+{
+  "name": "test-automation-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "wdio wdio.conf.ts",
+    "test1": "wdio wdio.conf.ts --suite test1",
+    "test2": "wdio wdio.conf.ts --suite test2",
+    "test3": "wdio wdio.conf.ts --suite test3",
+    "test4": "wdio wdio.conf.ts --suite test4",
+    "test5": "wdio wdio.conf.ts --suite test5",
+    "test6": "wdio wdio.conf.ts --suite test6",
+    "test7": "wdio wdio.conf.ts --suite test7",
+    "test8": "wdio wdio.conf.ts --suite test8"
+  },
+  "author": "Marek Ostrowski",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^8.36.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
