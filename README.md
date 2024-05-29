@@ -1,4 +1,4 @@
-# Test-Automation - WebDriverIO+Typescript
+# Test Automation - WebDriverIO + Typescript
 
 This repository contains some test cases written in **Typescript** in _WebDriverIO_ during my learning.
 
